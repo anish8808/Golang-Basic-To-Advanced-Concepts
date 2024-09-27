@@ -1,2 +1,2 @@
 # Go-Code
-This will contain the go code from scratch 
+this is the first session on golang where the basic things has been added 
