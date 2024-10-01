@@ -51,6 +51,10 @@ func main() {
 	str2 := 'A' // rune beacuse single digit
 	fmt.Printf("Value : %v Type:%T\n", str2, str2)
 
+	var (
+		no, name, age1, isMarried = 10, "Anish ", 24, false
+	)
+	fmt.Println(no, name, age1, isMarried)
 }
 
 // NUmbers
