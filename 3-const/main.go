@@ -11,6 +11,7 @@ func main() {
 	fmt.Printf("value %v , TYPE %T", PT, PT)
 
 	//Group of constat
+	//
 	const (
 		MAX, MIN = 100, 1
 	)
