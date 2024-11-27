@@ -51,4 +51,15 @@ func main() {
 	fmt.Println("a:", a, "b:", b, "c:", c)
 	a, b, c = c, a, b
 	fmt.Println("a:", a, "b:", b, "c:", c)
+
+	//manually swapping the a b c to c a b
+
+	a1, b1, c1 := 1, 2, 3
+	fmt.Println("-->Before Swap", a1, b1, c1)
+	temp1 := b1
+	b1 = a1
+	temp2 := c1
+	c1 = temp1
+	a1 = temp2
+	fmt.Println("-->After Swap", a1, b1, c1)
 }
