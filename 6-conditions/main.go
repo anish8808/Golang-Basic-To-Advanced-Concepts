@@ -37,7 +37,13 @@ func main() { //{func , if , else , loops , switch you have to put brance imidea
 		fmt.Println(a, "a is bigger")
 	} else if b > a && b > c {
 		fmt.Println(b, "b is bigger")
-	} else if {
+	} else if c > a && c > b {
 		fmt.Println(c, "c is bigger")
-	} else 
+	} else if a == b && b == c {
+		fmt.Println("equal")
+	} else if a == b && b > c {
+		fmt.Println("Equal and bigger")
+	} else {
+
+	}
 }
