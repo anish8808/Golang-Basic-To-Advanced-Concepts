@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 var (
 	a, b, c int // global variables
@@ -43,7 +46,11 @@ func main() { //{func , if , else , loops , switch you have to put brance imidea
 		fmt.Println("equal")
 	} else if a == b && b > c {
 		fmt.Println("Equal and bigger")
-	} else {
+	}
 
+	if num := rand.Intn(1000); num%2 == 0 {
+		fmt.Println(num, "is an even number")
+	} else {
+		fmt.Println(num, "is a odd number")
 	}
 }
