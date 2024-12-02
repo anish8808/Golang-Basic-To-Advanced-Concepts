@@ -40,4 +40,6 @@ func main() {
 	default:
 		println("Noday")
 	}
+
+	println("this is the switch case statement in golang ")
 }
