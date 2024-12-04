@@ -60,5 +60,24 @@ func main() {
 		println("Noday")
 	}
 
+	switch day := 4; day {
+	case 1:
+		println("Sunday") //break is default in each case
+	case 2:
+		println("Monday")
+	case 3:
+		println("TuesDay")
+	case 4:
+		println("thursday")
+	case 5:
+		println("wednesday")
+	case 6:
+		println("friday")
+	case 7:
+		println("Saturday")
+	default:
+		println("Noday")
+	}
+
 	println("this is the switch case statement in golang ")
 }
