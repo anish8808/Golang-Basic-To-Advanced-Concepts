@@ -69,10 +69,11 @@ func main() {
 
 	println("Number of wovels in a given String is ", count)
 
-	var ch int32 = 65
+	var ch int32 = 65 //rune is nothing but integer
 	if ch == 'A' {
 		println("YES")
 	} else {
 		println("NO")
 	}
+
 }
