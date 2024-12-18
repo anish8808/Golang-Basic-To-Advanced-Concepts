@@ -27,7 +27,7 @@ func main() {
 	case int8:
 		fmt.Println(ival, "is of type int8")
 	case int16:
-		fmt.Println(ival, "is of type int16")
+		fmt.Println(ival, "is of type int166")
 	case int32:
 		fmt.Println(ival, "is of type int32")
 	case int64:
