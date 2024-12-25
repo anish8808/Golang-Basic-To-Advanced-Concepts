@@ -36,4 +36,36 @@ func main() {
 		fmt.Println(ival, "is the another type")
 	}
 
+	var ival2 interface{}
+	var age2 int16 = 100
+	ival = age2
+	switch ival2.(type) {
+	case int:
+		fmt.Println(ival2, "is of type int")
+	case int8:
+		fmt.Println(ival2, "is of type int8")
+	case int16:
+		fmt.Println(ival2, "is of type int166")
+	case int32:
+		fmt.Println(ival2, "is of type int32")
+	case int64:
+		fmt.Println(ival2, "is of type int64")
+	default:
+		fmt.Println(ival2, "is the another type")
+	}
+	switch ival2.(type) {
+	case int:
+		fmt.Println(ival2, "is of type int")
+	case int8:
+		fmt.Println(ival2, "is of type int8")
+	case int16:
+		fmt.Println(ival2, "is of type int166")
+	case int32:
+		fmt.Println(ival2, "is of type int32")
+	case int64:
+		fmt.Println(ival2, "is of type int64")
+	default:
+		fmt.Println(ival2, "is the another type")
+	}
+
 }
