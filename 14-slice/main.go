@@ -14,9 +14,6 @@ func main() {
 	//nil can be checked on map, pointer , slice , interface
 	var slice1 []int // for slice you donnt need to give size
 
-	if slice1 == nil {
-		fmt.Println("Slice is nil bracuse it not instantiated")
-	}
 	slice1 = make([]int, 5) // type inference works here
 	fmt.Println(slice1)
 
