@@ -7,6 +7,13 @@ func main() {
 	fmt.Println("Sum", sumOf(10, 20, 30, 40, 50, 60, 70))
 	fmt.Println("Sum", sumOf(10, 20))
 	fmt.Println("Sum", sumOf())
+
+	slice := []int{10, 20, 30, 40, 50}
+	fmt.Println("Sum:", sumOf(slice...))
+	arr := [5]int{10, 20, 30, 40, 50}
+	//arr can be passed direct in variadic we can pass slice so we can convert array to slice
+	//arr[:] this will convert array to the slice ,  and name will be arr
+	fmt.Println("Sum :", sumOf(arr[:]...))
 }
 
 // variadic function must be the last parameter
