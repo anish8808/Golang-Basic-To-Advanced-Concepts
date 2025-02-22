@@ -16,9 +16,10 @@ func main() {
 	arrptr := uintptr(unsafe.Pointer(&arr1[0]))
 	//fmt.Println(*(*string)(unsafe.Pointer(arrptr)))
 
-	for i := 0; i < 3; i++ {
+	for i := 0; i <= 3; i++ {
+		fmt.Println(*(*string)(unsafe.Pointer(arrptr)))
 		arrptr += 16 //string stores 16 byte
-		//fmt.Println(*(*string)(unsafe.Pointer(arrptr)))
+
 	}
 }
 
