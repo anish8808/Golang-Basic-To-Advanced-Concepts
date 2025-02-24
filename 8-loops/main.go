@@ -1,6 +1,6 @@
 package main
 
-//loos
+//loops concept in golang
 
 func main() {
 	for i := 0; i < 10; i++ {
