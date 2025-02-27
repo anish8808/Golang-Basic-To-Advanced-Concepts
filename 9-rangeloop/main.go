@@ -15,7 +15,7 @@ func main() {
 		println("Value", string(v))
 	}
 
-	// reverse string
+	// reverse string logic
 	revstr := ""
 
 	for _, v := range str {
