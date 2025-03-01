@@ -17,6 +17,8 @@ func main() {
 
 	// reverse string logic
 	// reverse string logic
+	// reverse string logic
+	// reverse string logic
 	revstr := ""
 
 	for _, v := range str {
