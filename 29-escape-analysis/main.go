@@ -6,6 +6,11 @@ import (
 	"time"
 )
 
+/*
+scape analysis helps Golang optimize memory usage, making stack allocation preferred for efficiency. However,
+if a variable must persist beyond its function scope, it's automatically moved to the heap. 🚀
+*/
+
 // it an algorithm , that decide the particular variable should be in heap
 // 3 case
 // 1- does not escape -->means store to stack memory
