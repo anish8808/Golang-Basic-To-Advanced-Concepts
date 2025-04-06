@@ -10,6 +10,8 @@ func main() {
 	fmt.Println("Generic based ", sumOf[uint8](10, 10, 12, 14, 45, 45))
 	fmt.Println("Generic based ", sumOf[float64](10, 10, 12, 14, 45, 45))
 	fmt.Println("Generic based ", sumOf[uint16](10, 10, 12, 14, 45, 45))
+	fmt.Println("Generic based ", sumOf[float64](10.0, 10, 12, 14, 45, 45))
+	fmt.Println("Generic based ", sumOf[uint16](10.0, 10, 12, 14, 45, 45))
 }
 
 func sum1(nums ...int) int {
