@@ -25,7 +25,7 @@ func (c calculator[T]) multiply() T {
 
 func main() {
 	c1 := calculator[int]{A: 10, B: 11}
-	c2 := calculator[float32]{A: 10.0, B: 11.0}
+	c2 := calculator[float32]{A: 10.0, B: 11.0} //using printl
 	fmt.Println("add c1", c1.Add())
 	fmt.Println("add c2", c2.Add())
 	fmt.Println("sub c1", c1.substract())
