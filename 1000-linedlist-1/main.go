@@ -7,6 +7,11 @@ type Node struct {
 	next *Node
 }
 
+type Nodee struct {
+	data int
+	next *Node
+}
+
 // type Linkedlist struct {
 // 	head *Node
 // }
