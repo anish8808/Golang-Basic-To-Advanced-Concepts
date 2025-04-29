@@ -23,6 +23,7 @@ type IPermiter interface {
 }
 
 // creating the new struct and implementing the func area()
+// creating the new struct and implementing the func area()
 type Rect struct {
 	L, B float32
 }
