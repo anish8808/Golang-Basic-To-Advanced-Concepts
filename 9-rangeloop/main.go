@@ -11,6 +11,10 @@ import "fmt"
 // 1- arrays , slices --> gives indexx , value
 // 2 - maps --> key value
 // 3- channels --> value
+// range loop is used in three ways
+// 1- arrays , slices --> gives indexx , value
+// 2 - maps --> key value
+// 3- channels --> value
 
 func main() {
 	str := "Hello World!"
