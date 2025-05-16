@@ -14,7 +14,7 @@ type IShape interface { //interface
 	IPermiter
 }
 
-type IArea interface { // using multiple interface to use spearate or togather as well
+type IArea interface { // using multiple interface to use spearate or togather as well , // using multiple interface to use spearate or togather as well
 	area() float32
 }
 
