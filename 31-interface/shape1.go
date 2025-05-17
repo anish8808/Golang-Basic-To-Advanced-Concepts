@@ -9,7 +9,7 @@ func Perimeter(ishape IShape) {
 	fmt.Println("Perimeter", ishape.perimeter())
 }
 
-type IShape interface { //interface
+type IShape interface { //interface //interface
 	IArea
 	IPermiter
 }
