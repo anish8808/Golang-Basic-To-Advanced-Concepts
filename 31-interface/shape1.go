@@ -9,12 +9,12 @@ func Perimeter(ishape IShape) {
 	fmt.Println("Perimeter", ishape.perimeter())
 }
 
-type IShape interface { //interface
+type IShape interface { //interface //interface
 	IArea
 	IPermiter
 }
 
-type IArea interface { // using multiple interface to use spearate or togather as well
+type IArea interface { // using multiple interface to use spearate or togather as well ,
 	area() float32
 }
 

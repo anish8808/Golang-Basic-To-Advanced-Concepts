@@ -2,7 +2,9 @@ package main
 
 import "fmt"
 
-//aninymous funcs that are called without created the name(but we need function)
+//anonymous funcs that are called without created the name(but we need function)
+
+//anonymous funcs that are called without created the name(but we need function)
 
 func main() {
 
